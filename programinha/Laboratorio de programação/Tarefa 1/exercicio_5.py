@@ -27,10 +27,10 @@ while continuar == "s":
     pergunta = int(input("Escolha um numero entre 0 e 100: "))
     if pergunta == numero_aleatorio:
         tentativas = tentativas + 1
-        print(f"****************************************")
+        print("****************************************")
         print(f"Parabéns!!!! O número correto é {numero_aleatorio}")
         print(f"Quantidade de tentativas --> {tentativas}")
-        print(f"****************************************")
+        print("****************************************")
         tentativas = 0
         numero_aleatorio = random.randint(0, 100)
         continuar = input("Jogar Novamente? ")
