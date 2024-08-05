@@ -11,4 +11,4 @@ if idade_usuario >= 18:
 else:
     Faltam_para_maior_idade = 18 - idade_usuario
     print(f"Voce é menor de idade: {idade_usuario} anos!")
-    print(f"Faltam {Faltam_para_maior_idade} anos para voce completar a maior idade!")
+    print(f"Faltam {Faltam_para_maior_idade} ano(s) para voce completar a maior idade!")
